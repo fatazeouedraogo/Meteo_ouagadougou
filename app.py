@@ -2,7 +2,7 @@ import requests
 import matplotlib.pyplot as plt
 import datetime
 
-# Remplace 'ta_clef_api' par ta clé API OpenWeatherMap
+
 API_KEY = '465961c262e1a4d66cd5d2a66cdfaf9e'
 VILLE = 'Ouagadougou'
 URL = f'http://api.openweathermap.org/data/2.5/forecast?q={VILLE}&appid={API_KEY}&units=metric'
